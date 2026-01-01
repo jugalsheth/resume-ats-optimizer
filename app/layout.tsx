@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   title: "Resume ATS Optimizer - Optimize Your Resume for ATS in Seconds",
   description: "AI-powered resume optimization tool that helps you pass ATS systems and land your dream job. Free, fast, and effective.",
   keywords: ["resume optimizer", "ATS", "resume builder", "job application", "resume checker"],
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/icon.png', type: 'image/png' },
+    ],
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     title: "Resume ATS Optimizer",
     description: "Optimize your resume for ATS systems in seconds",
