@@ -25,9 +25,13 @@
 
 #### Required Environment Variable
 
+**Only ONE environment variable is needed:**
+
 | Variable Name | Value | Environment |
 |--------------|-------|-------------|
 | `GROQ_API_KEY` | `your_groq_api_key_here` | Production, Preview, Development |
+
+**Note:** `NEXT_PUBLIC_APP_URL` is NOT needed - it's not used in the codebase. Only `GROQ_API_KEY` is required.
 
 **Where to get your Groq API key:**
 1. Go to https://console.groq.com/
